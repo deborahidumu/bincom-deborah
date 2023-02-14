@@ -12,7 +12,7 @@
 
      <div class="container">
          <?php
-            require_once "./includes/database.php";
+            require_once "./database.php";
 
             $lga_id = $_POST['lga'];
             $pu_name = $_POST['polling_unit_name'];

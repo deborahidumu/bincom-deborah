@@ -14,7 +14,7 @@
          <?php
 
             // Select all the PU for the selected LGA
-            require_once "./includes/database.php";
+            require_once "./database.php";
 
 
             $polling_units = [];

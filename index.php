@@ -29,7 +29,7 @@
          <div class="parties-container">
 
              <?php
-                require_once "./includes/database.php";
+                require_once "./database.php";
 
                 $unitId = 8;
 

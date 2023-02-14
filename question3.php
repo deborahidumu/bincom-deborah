@@ -22,7 +22,7 @@
              <select name="lga" id="lga" class="select">
                  <option selected disabled>Select LGA</option>
                  <?php
-                    require_once "./includes/database.php";
+                    require_once "./database.php";
 
                     $sql = "SELECT lga_id, lga_name FROM lga";
                     $stmt = mysqli_stmt_init($conn);
@@ -63,7 +63,7 @@
              <p>Results</p>
 
              <?php
-                require_once "./includes/database.php";
+                require_once "./database.php";
 
                 $sql = "SELECT partyname FROM party";
                 $stmt = mysqli_stmt_init($conn);

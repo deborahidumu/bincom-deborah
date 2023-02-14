@@ -23,7 +23,7 @@
              <select name="lga" id="lga" class="select">
                  <option selected disabled>Select LGA</option>
                  <?php
-                    require_once "./includes/database.php";
+                    require_once "./database.php";
 
                     $sql = "SELECT polling_unit_uniqueid FROM announced_pu_results;";
                     $stmt = mysqli_stmt_init($conn);
